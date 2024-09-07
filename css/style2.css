@@ -1,0 +1,133 @@
+/* google fonts */
+/* open sans */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+/* paprika */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Paprika&display=swap");
+/* google fonts */
+/* nunito font */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+/* nunito font */
+/* Quicksand */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap");
+/* Quicksand */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+a,
+li,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+br,
+div,
+img,
+span {
+  margin: 0;
+  padding: 0;
+}
+img {
+  vertical-align: middle;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+:root {
+  --banerColor: #48409c;
+  --navbar_color: #160c6d;
+  --gray_background-color: #F9F9F;
+  --white_background_color: #ffff;
+  --green_color: #1bbf00;
+  --black_color: #141135;
+  --text_color: #726e9e;
+  --hover_color: #6b62c5;
+
+  /* variable for fonts */
+  --open_sans: "Open Sans", sans-serif;
+  --paprika: "Paprika", system-ui;
+  --nunito: "Nunito", sans-serif;
+  --quicksand: "Quicksand", sans-serif;
+}
+/* YouMayLike Part */
+#YouMayLike {
+  background-color: #f9f9fb;
+  position: relative;
+  padding: 100px 0;
+}
+.YouMayLikeGround {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.MayAlsoLike {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.MayAlsoLike_h4 {
+  text-align: start;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: var(--open_sans);
+}
+.MainContentBox1 {
+  display: flex;
+  flex-direction: row;
+  column-gap: 80px;
+}
+.MainContentBox1__left {
+  width: 379px;
+  height: 220px;
+  background-color: #c4c4c4;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.MainContentBox1Right {
+  max-width: 504px;
+}
+.MainContentBo1Right__upper {
+  display: flex;
+  flex-direction: row;
+  column-gap: 35px;
+}
+.Upper__span1 {
+  color: #1bbf00;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: var(--quicksand);
+}
+.Upper__span2 {
+  color: #726e9e;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: var(--quicksand);
+}
+.MainContentBox1RightMiddle__h4 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: var(--open_sans);
+  line-height: 55px;
+  letter-spacing: -1.5px;
+}
+
+/* YouMayLike Part */
